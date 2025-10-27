@@ -1,0 +1,42 @@
+{
+    "version": "1.0.0",
+    "author": "YourName",
+    "auto_setup": true,
+    
+    "paths": {
+        "python_executable": "auto",
+        "psexec_path": "auto", 
+        "project_directory": "auto",
+        "temp_directory": "auto"
+    },
+    
+    "security": {
+        "require_admin": true,
+        "max_integrity_level": "System",
+        "enable_debug_privilege": true,
+        "safe_mode": false
+    },
+    
+    "tests": {
+        "enable_sam_tests": true,
+        "enable_registry_tests": true,
+        "enable_process_tests": true,
+        "enable_file_tests": true,
+        "enable_network_tests": true,
+        "test_timeout_seconds": 10,
+        "max_process_scan": 50
+    },
+    
+    "gui": {
+        "theme": "dark",
+        "show_live_stats": true,
+        "auto_export_results": false,
+        "results_directory": "results"
+    },
+    
+    "system": {
+        "windows_versions": ["10", "11"],
+        "architecture": ["x64"],
+        "required_tools": ["PsExec", "Python 3.8+"]
+    }
+}
