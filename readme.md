@@ -15,7 +15,7 @@ A comprehensive system privilege analysis and elevation tool for Windows that de
 ##  Features
 
 - ** Comprehensive Privilege Analysis** - Test SAM, Registry, Process, and File System access
-- ** Beautiful GUI Interface** - Real-time statistics and color-coded results
+- ** GUI Interface** - Real-time statistics and color-coded results
 - ** SYSTEM Level Execution** - Run tests with maximum Windows privileges
 - ** Detailed Reporting** - Export results for security audits
 - ** Auto-Configuration** - Automatic path detection and setup
@@ -30,3 +30,4 @@ A comprehensive system privilege analysis and elevation tool for Windows that de
    git clone https://github.com/SudoBlank/Exicator
 
    cd PrivilegeElevator
+
